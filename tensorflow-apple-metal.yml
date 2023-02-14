@@ -19,9 +19,12 @@ dependencies:
     - flask
     - boto3
     - ipykernel
+    - tensorboard=2.9.1
+    - keras=2.11.0
     - pip:
         - tensorflow-macos
         - tensorflow-metal
         - bayesian-optimization
         - gym
         - kaggle
+        - opencv-contrib-python==4.6.0.66
